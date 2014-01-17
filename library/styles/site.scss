@@ -1,0 +1,45 @@
+// site styles
+@import 'compass/css3';
+@import '_vars';
+
+html, body, #wrap-outer {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    margin: 0;
+}
+
+#sandbox {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    margin: 0;
+    max-width: none;
+    @include box-sizing( border-box );
+    @include border-radius( 0 );
+    background: $deep-grey-dark;
+
+    &,
+    & > * {
+        font-family: $font-family-mono-light;
+    }
+
+    textarea {
+        height: auto;
+        max-width: none;
+        background: $deep-grey-dark;
+    }
+
+    pre.output {
+        height: 150px;
+
+        span           { color:$grey-light; }
+        span.command   { color:$grey; }
+        span.prefix    { color:$deep-grey-light; }
+        span.undefined { color:$deep-grey-light; }
+        span.string    { color:$yellow; }
+        span.number    { color:$green; }
+        span.error     { color:$red; }
+    }
+}

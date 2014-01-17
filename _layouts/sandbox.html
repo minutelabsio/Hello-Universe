@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<!--[if lte IE 8]>     <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" itemscope itemtype="http://schema.org/Article" lang="en"> <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>{{ site.title }} | MinuteLabs.io</title>
+  <meta name="description" content="{{ site.description }}">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- Google+ snippet. -->
+  <meta itemprop="name" content="{{ site.title }} | MinuteLabs.io">
+  <meta itemprop="description" content="{{ site.description }}">
+  <meta itemprop="image" content="{{ site.thumb }}">
+
+  <!-- css -->
+  <link rel="stylesheet" href="{{ site.ml_url }}/library/styles/lab.css" />
+  <link rel="stylesheet" href="{{ site.library_path }}/styles/sandbox.css?v={{ site.version }}" />
+  <link rel="stylesheet" href="{{ site.library_path }}/styles/site.css?v={{ site.version }}" />
+
+  <!-- js includes -->
+  <script src="{{ site.library_path }}/js/vendor/modernizr.js"></script>
+  <script>
+    var Lab = { title: '{{ site.title }}', id: '{{ site.id }}' };
+  </script>
+</head>
+<body>
+  
+  <div id="sandbox">sandbox loading...</div>
+
+  <!-- The sandbox template -->
+<script type="text/template" id="tplSandbox">
+  <pre class="output"></pre>
+  <div class="input">
+    <textarea rows="1" placeholder=""></textarea>
+  </div>
+</script>
+
+  <!-- The command/result template (NB whitespace/line breaks matter inside <pre> tag): -->
+<script type="text/template" id="tplCommand"><% if (! _hidden) { %><span class="command"><%= command %></span>
+<span class="prefix"><%= this.resultPrefix %></span><span class="<%= _class %>"><%= result %></span>
+<% } %></script>
+
+  <!--[if lte IE 8]>
+  <div id="bad-browser">
+    <p>We are truly sorry. But your web browser is very outdated. MinuteLabs will just <strong>not work</strong> with your browser.</p>
+    <p>Please visit <a href="http://browsehappy.com">browsehappy</a> to learn how to fix this.</p>
+  </div>
+  <![endif]-->
+
+  <script src="{{ site.library_path }}/js/vendor/jquery.js?v={{ site.version }}"></script>
+  <script src="{{ site.library_path }}/js/vendor/lodash.min.js?v={{ site.version }}"></script>
+  <script src="{{ site.library_path }}/js/vendor/backbone.js?v={{ site.version }}"></script>
+  <script src="{{ site.library_path }}/js/vendor/backbone.localstorage-min.js?v={{ site.version }}"></script><!-- opt -->
+
+  <script src="{{ site.library_path }}/js/vendor/sandbox-console.js?v={{ site.version }}"></script>
+  <script type="text/javascript">
+    jQuery(function($) {
+      // Create the sandbox:
+      window.sandbox = new Sandbox.View({
+        el : $('#sandbox'),
+        model : new Sandbox.Model()
+      });
+    });
+  </script>
+
+</body>
+</html>

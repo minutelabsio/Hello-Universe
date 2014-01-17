@@ -1,0 +1,68 @@
+/* line 5, /Users/wellcaffeinated/Documents/github/minutelabs/Hello Universe/library/styles/site.scss */
+html, body, #wrap-outer {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  margin: 0;
+}
+
+/* line 12, /Users/wellcaffeinated/Documents/github/minutelabs/Hello Universe/library/styles/site.scss */
+#sandbox {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  margin: 0;
+  max-width: none;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  -ms-border-radius: 0;
+  -o-border-radius: 0;
+  border-radius: 0;
+  background: #1a1a1a;
+}
+/* line 24, /Users/wellcaffeinated/Documents/github/minutelabs/Hello Universe/library/styles/site.scss */
+#sandbox, #sandbox > * {
+  font-family: "latin-modern-mono-light", Courier, monospace;
+}
+/* line 28, /Users/wellcaffeinated/Documents/github/minutelabs/Hello Universe/library/styles/site.scss */
+#sandbox textarea {
+  height: auto;
+  max-width: none;
+  background: #1a1a1a;
+}
+/* line 34, /Users/wellcaffeinated/Documents/github/minutelabs/Hello Universe/library/styles/site.scss */
+#sandbox pre.output {
+  height: 150px;
+}
+/* line 37, /Users/wellcaffeinated/Documents/github/minutelabs/Hello Universe/library/styles/site.scss */
+#sandbox pre.output span {
+  color: #ededed;
+}
+/* line 38, /Users/wellcaffeinated/Documents/github/minutelabs/Hello Universe/library/styles/site.scss */
+#sandbox pre.output span.command {
+  color: gainsboro;
+}
+/* line 39, /Users/wellcaffeinated/Documents/github/minutelabs/Hello Universe/library/styles/site.scss */
+#sandbox pre.output span.prefix {
+  color: #626262;
+}
+/* line 40, /Users/wellcaffeinated/Documents/github/minutelabs/Hello Universe/library/styles/site.scss */
+#sandbox pre.output span.undefined {
+  color: #626262;
+}
+/* line 41, /Users/wellcaffeinated/Documents/github/minutelabs/Hello Universe/library/styles/site.scss */
+#sandbox pre.output span.string {
+  color: #e4d42c;
+}
+/* line 42, /Users/wellcaffeinated/Documents/github/minutelabs/Hello Universe/library/styles/site.scss */
+#sandbox pre.output span.number {
+  color: #79e500;
+}
+/* line 43, /Users/wellcaffeinated/Documents/github/minutelabs/Hello Universe/library/styles/site.scss */
+#sandbox pre.output span.error {
+  color: #e93f33;
+}
