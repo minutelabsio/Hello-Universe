@@ -26,6 +26,14 @@
 </head>
 <body>
   
+  <div id="screen">
+    <div id="msg">a</div>
+    <div id="video" class="broken">
+      <!-- <img src="{{ site.library_path }}/images/video.png"/> -->
+    </div>
+    <div id="lightbulb" class="flicker-off"></div>
+    <div id="light-switch-viewport"></div>
+  </div>
   <div id="sandbox">sandbox loading...</div>
 
   <!-- The sandbox template -->
@@ -54,6 +62,17 @@
   <script src="{{ site.library_path }}/js/vendor/backbone.localstorage-min.js?v={{ site.version }}"></script><!-- opt -->
 
   <script src="{{ site.library_path }}/js/vendor/sandbox-console.js?v={{ site.version }}"></script>
+  <script src="{{ site.library_path }}/js/vendor/physicsjs/physicsjs-full-0.5.3.min.js?v={{ site.version }}"></script>
+  <script src="{{ site.library_path }}/js/light-switch.js"></script>
+  <script>
+  (function(Labs){
+    Labs.Video = {
+      assemble: function(){
+        $('#video').removeClass('broken');
+      }
+    };
+  })(this.Labs || (this.Labs = {}));
+  </script>
   <script type="text/javascript">
     jQuery(function($) {
       // Create the sandbox:
@@ -61,6 +80,12 @@
         el : $('#sandbox'),
         model : new Sandbox.Model()
       });
+      setTimeout(function(){
+        $('body').addClass('dark');
+        $('#msg').empty();
+      }, 1000);
+      $('html').css('position', 'relative').width(1280).height(720);
+      $('#video').prepend('<div>'+(new Array(26)).join('</div><div>')+'</div>');
     });
   </script>
 
