@@ -7,6 +7,8 @@
                 x: 0
                 ,y: 0
                 ,radius: 10
+                ,restitution: 0.3
+                ,mass: 0.01
             }, opts)
             ,cstr = Physics.behavior('verlet-constraints')
             ,last
@@ -70,6 +72,26 @@
             world.step( t );
         }).start();
 
+        Labs.chain = links;
+        links.detach = function(){
+            world.destroy();
+            var vp = $('#light-switch-viewport');
+            var offset = vp.position();
+            vp.css({
+                position: 'static'
+                ,transform: 'none'
+                ,overflow: 'visible'
+            });
+
+            for ( var i = 0, l = links.length; i < l; ++i ){
+                
+                if (links[ i ].state){
+                    links[ i ].state.pos.vadd(Physics.vector(offset.left, offset.top));
+                    links[ i ].state.old.pos.vadd(Physics.vector(offset.left, offset.top));
+                }
+            }
+        };
+
         // events
         var hold, start, startbody;
         $(renderer.el).on({
@@ -94,8 +116,10 @@
 
         $(document).on({
             'mouseup': function(){
-                hold.fixed = hold.wasfixed;
-                hold = false;
+                if ( hold ){
+                    hold.fixed = hold.wasfixed;
+                    hold = false;
+                }
                 $('body').removeClass('dark');
             }
 

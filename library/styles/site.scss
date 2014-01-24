@@ -2,6 +2,10 @@
 @import 'compass/css3';
 @import '_vars';
 
+body * {
+    clear: none;
+}
+
 @mixin keyframes($animationName) {
     @-webkit-keyframes #{$animationName} {
         @content;
@@ -111,6 +115,20 @@ html, body, #wrap-outer {
     font-family: $font-family-mono;
 }
 
+.dg {
+    input {
+        line-height: 1;
+        @include border-radius( 0 );
+    }
+}
+
+#controls {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 100;
+}
+
 #lightbulb {
     @include light-bulb();
     position: absolute;
@@ -153,14 +171,14 @@ html, body, #wrap-outer {
         }
 
         > div:nth-child(1) {
-            width: 47px;
+            width: 46px;
             height: 44px;
             bottom: 10px;
             left: 0;
             background: image-url('broken/b1.png') no-repeat 0 bottom;
         }
         > div:nth-child(2) {
-            width: 41px;
+            width: 40px;
             bottom: 10px;
             left: 46px;
             background: image-url('broken/b2.png') no-repeat 0 bottom;
@@ -168,7 +186,8 @@ html, body, #wrap-outer {
         > div:nth-child(3) {
             bottom: 10px;
             left: 86px;
-            background: image-url('broken/b3.png') no-repeat 0 bottom;
+            width: 70px;
+            background: image-url('broken/b3.png') no-repeat -5px bottom;
         }
         > div:nth-child(4),
         > div:nth-child(5),
@@ -178,8 +197,11 @@ html, body, #wrap-outer {
         > div:nth-child(9),
         > div:nth-child(10) {
             bottom: 10px;
-            left: 145px;
+            left: 155px;
             background: image-url('broken/b4.png') no-repeat 0 bottom;
+        }
+        > div:nth-child(4) {
+            width: 50px;
         }
         > div:nth-child(5) {
             left: 204px;
@@ -198,11 +220,11 @@ html, body, #wrap-outer {
         }
         > div:nth-child(10) {
             left: 499px;
-            width: 18px;
+            width: 19px;
         }
         > div:nth-child(11) {
             bottom: 10px;
-            left: 516px;
+            left: 517px;
             width: 45px;
             background: image-url('broken/b5.png') no-repeat 0 bottom;
             z-index: 3;
@@ -210,13 +232,13 @@ html, body, #wrap-outer {
         > div:nth-child(12) {
             width: 45px;
             bottom: 10px;
-            left: 561px;
+            left: 562px;
             background: image-url('broken/b6.png') no-repeat 0 bottom;
         }
         > div:nth-child(13) {
             width: 34px;
             bottom: 10px;
-            left: 605px;
+            left: 606px;
             background: image-url('broken/b7.png') no-repeat 0 bottom;
         }
         > div:nth-child(14),
@@ -265,11 +287,11 @@ html, body, #wrap-outer {
         }
         > div:nth-child(24) {
             left: 560px;
-            width: 22px;
+            width: 23px;
         }
         > div:nth-child(25) {
             top: 0px;
-            left: 582px;
+            left: 583px;
             height: 30px;
             width: 57px;
             background: image-url('broken/t2.png') no-repeat 0 0;
@@ -282,7 +304,7 @@ html, body, #wrap-outer {
             top: 0;
             border-left: 1px solid #333;
             height: 25px;
-            z-index: 1;
+            z-index: 5;
         }
         @for $i from 1 to 13 {
             div:nth-child(#{$i}){
@@ -292,7 +314,7 @@ html, body, #wrap-outer {
         }
         @for $i from 13 to 25 {
             div:nth-child(#{$i}){
-                right: 1px;
+                right: 0;
                 top: 25px * ($i - 12) + 5px;
             }
         }
@@ -388,6 +410,7 @@ html, body, #wrap-outer {
         height: 75px;
         overflow: hidden;
         width: 635px;
+        z-index: 10;
 
         > .wrap {
             position: relative;
@@ -409,6 +432,14 @@ html, body, #wrap-outer {
             }
         }
     }
+}
+
+#real-video {
+    position: absolute;
+    top: 310px;
+    left: -11px;
+    z-index: 4;
+
 }
 
 #light-switch-viewport {
@@ -433,6 +464,8 @@ html, body, #wrap-outer {
 }
 
 #msg {
+    position: relative;
+    z-index: 1;
     text-align: center;
     display: block;
     margin: 2.5em;

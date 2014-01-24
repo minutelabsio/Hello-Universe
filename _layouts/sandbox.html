@@ -27,6 +27,7 @@
 <body>
   
   <div id="screen">
+    <div id="controls"></div>  
     <div id="msg">a</div>
     <div id="video" class="broken">
       <aside id="horse">
@@ -48,7 +49,10 @@
           <img src="{{ site.library_path }}/images/horse/horse14.png">
         </div>
       </aside>
-      <!-- <img src="{{ site.library_path }}/images/video.png"/> -->
+      <!-- <iframe id="real-video" width="640" height="360" src="//www.youtube.com/embed/961Oopyq0g8" frameborder="0" allowfullscreen></iframe> -->
+      <video id="real-video" width="222" height="66" preload>
+        <source src="{{ site.library_path }}/images/controls.mov" />
+      </video>
     </div>
     <div id="lightbulb" class="flicker-off"></div>
     <div id="light-switch-viewport"></div>
@@ -75,6 +79,7 @@
   </div>
   <![endif]-->
 
+  <script src="//cdnjs.cloudflare.com/ajax/libs/dat-gui/0.5/dat.gui.min.js"></script>
   <script src="{{ site.library_path }}/js/vendor/jquery.js?v={{ site.version }}"></script>
   <script src="{{ site.library_path }}/js/vendor/lodash.min.js?v={{ site.version }}"></script>
   <script src="{{ site.library_path }}/js/vendor/backbone.js?v={{ site.version }}"></script>
@@ -85,15 +90,6 @@
   <script src="{{ site.library_path }}/js/light-switch.js"></script>
   <script src="{{ site.library_path }}/js/horse.js"></script>
   <script src="{{ site.library_path }}/js/video-crumble.js"></script>
-  <script>
-  (function(Labs){
-    Labs.Video = {
-      assemble: function(){
-        $('#video').removeClass('broken');
-      }
-    };
-  })(this.Labs || (this.Labs = {}));
-  </script>
   <script type="text/javascript">
     function nTimes( str, n ){
       return str + (new Array( n )).join(str);
