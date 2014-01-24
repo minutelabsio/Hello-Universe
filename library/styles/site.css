@@ -355,368 +355,553 @@ body:not(.dark) #lightbulb:after {
   width: 640px;
   height: 370px;
 }
-/* line 146, /Users/wellcaffeinated/Documents/github/minutelabs/Hello Universe/library/styles/site.scss */
-#video > div {
+/* line 147, /Users/wellcaffeinated/Documents/github/minutelabs/Hello Universe/library/styles/site.scss */
+#video .bulk > div {
   position: absolute;
   width: 60px;
-  height: 44px;
+  height: 35px;
   -webkit-transition: all 1s ease;
   -moz-transition: all 1s ease;
   -o-transition: all 1s ease;
   transition: all 1s ease;
+  z-index: 2;
 }
-/* line 153, /Users/wellcaffeinated/Documents/github/minutelabs/Hello Universe/library/styles/site.scss */
-#video > div:nth-child(1) {
+/* line 155, /Users/wellcaffeinated/Documents/github/minutelabs/Hello Universe/library/styles/site.scss */
+#video .bulk > div:nth-child(1) {
+  width: 47px;
+  height: 44px;
   bottom: 10px;
   left: 0;
-  background: url('../images/broken/b1.png?1390243802') no-repeat 0 0;
+  background: url('../images/broken/b1.png?1390243802') no-repeat 0 bottom;
 }
-/* line 158, /Users/wellcaffeinated/Documents/github/minutelabs/Hello Universe/library/styles/site.scss */
-#video > div:nth-child(2) {
+/* line 162, /Users/wellcaffeinated/Documents/github/minutelabs/Hello Universe/library/styles/site.scss */
+#video .bulk > div:nth-child(2) {
+  width: 41px;
   bottom: 10px;
   left: 46px;
-  background: url('../images/broken/b2.png?1390243825') no-repeat 0 0;
+  background: url('../images/broken/b2.png?1390243825') no-repeat 0 bottom;
 }
-/* line 163, /Users/wellcaffeinated/Documents/github/minutelabs/Hello Universe/library/styles/site.scss */
-#video > div:nth-child(3) {
+/* line 168, /Users/wellcaffeinated/Documents/github/minutelabs/Hello Universe/library/styles/site.scss */
+#video .bulk > div:nth-child(3) {
   bottom: 10px;
   left: 86px;
-  background: url('../images/broken/b3.png?1390243901') no-repeat 0 0;
-}
-/* line 174, /Users/wellcaffeinated/Documents/github/minutelabs/Hello Universe/library/styles/site.scss */
-#video > div:nth-child(4),
-#video > div:nth-child(5),
-#video > div:nth-child(6),
-#video > div:nth-child(7),
-#video > div:nth-child(8),
-#video > div:nth-child(9),
-#video > div:nth-child(10) {
-  bottom: 10px;
-  left: 145px;
-  background: url('../images/broken/b4.png?1390243937') no-repeat 0 0;
+  background: url('../images/broken/b3.png?1390243901') no-repeat 0 bottom;
 }
 /* line 179, /Users/wellcaffeinated/Documents/github/minutelabs/Hello Universe/library/styles/site.scss */
-#video > div:nth-child(5) {
+#video .bulk > div:nth-child(4),
+#video .bulk > div:nth-child(5),
+#video .bulk > div:nth-child(6),
+#video .bulk > div:nth-child(7),
+#video .bulk > div:nth-child(8),
+#video .bulk > div:nth-child(9),
+#video .bulk > div:nth-child(10) {
+  bottom: 10px;
+  left: 145px;
+  background: url('../images/broken/b4.png?1390243937') no-repeat 0 bottom;
+}
+/* line 184, /Users/wellcaffeinated/Documents/github/minutelabs/Hello Universe/library/styles/site.scss */
+#video .bulk > div:nth-child(5) {
   left: 204px;
 }
-/* line 182, /Users/wellcaffeinated/Documents/github/minutelabs/Hello Universe/library/styles/site.scss */
-#video > div:nth-child(6) {
+/* line 187, /Users/wellcaffeinated/Documents/github/minutelabs/Hello Universe/library/styles/site.scss */
+#video .bulk > div:nth-child(6) {
   left: 263px;
 }
-/* line 185, /Users/wellcaffeinated/Documents/github/minutelabs/Hello Universe/library/styles/site.scss */
-#video > div:nth-child(7) {
+/* line 190, /Users/wellcaffeinated/Documents/github/minutelabs/Hello Universe/library/styles/site.scss */
+#video .bulk > div:nth-child(7) {
   left: 322px;
 }
-/* line 188, /Users/wellcaffeinated/Documents/github/minutelabs/Hello Universe/library/styles/site.scss */
-#video > div:nth-child(8) {
+/* line 193, /Users/wellcaffeinated/Documents/github/minutelabs/Hello Universe/library/styles/site.scss */
+#video .bulk > div:nth-child(8) {
   left: 381px;
 }
-/* line 191, /Users/wellcaffeinated/Documents/github/minutelabs/Hello Universe/library/styles/site.scss */
-#video > div:nth-child(9) {
+/* line 196, /Users/wellcaffeinated/Documents/github/minutelabs/Hello Universe/library/styles/site.scss */
+#video .bulk > div:nth-child(9) {
   left: 440px;
 }
-/* line 194, /Users/wellcaffeinated/Documents/github/minutelabs/Hello Universe/library/styles/site.scss */
-#video > div:nth-child(10) {
-  left: 480px;
-}
-/* line 197, /Users/wellcaffeinated/Documents/github/minutelabs/Hello Universe/library/styles/site.scss */
-#video > div:nth-child(11) {
-  bottom: 10px;
-  left: 516px;
-  background: url('../images/broken/b5.png?1390244096') no-repeat 0 0;
-  z-index: 1;
+/* line 199, /Users/wellcaffeinated/Documents/github/minutelabs/Hello Universe/library/styles/site.scss */
+#video .bulk > div:nth-child(10) {
+  left: 499px;
+  width: 18px;
 }
 /* line 203, /Users/wellcaffeinated/Documents/github/minutelabs/Hello Universe/library/styles/site.scss */
-#video > div:nth-child(12) {
-  bottom: 8px;
-  left: 561px;
-  background: url('../images/broken/b6.png?1390244115') no-repeat 0 0;
+#video .bulk > div:nth-child(11) {
+  bottom: 10px;
+  left: 516px;
+  width: 45px;
+  background: url('../images/broken/b5.png?1390244096') no-repeat 0 bottom;
+  z-index: 3;
 }
-/* line 208, /Users/wellcaffeinated/Documents/github/minutelabs/Hello Universe/library/styles/site.scss */
-#video > div:nth-child(13) {
+/* line 210, /Users/wellcaffeinated/Documents/github/minutelabs/Hello Universe/library/styles/site.scss */
+#video .bulk > div:nth-child(12) {
+  width: 45px;
+  bottom: 10px;
+  left: 561px;
+  background: url('../images/broken/b6.png?1390244115') no-repeat 0 bottom;
+}
+/* line 216, /Users/wellcaffeinated/Documents/github/minutelabs/Hello Universe/library/styles/site.scss */
+#video .bulk > div:nth-child(13) {
+  width: 34px;
   bottom: 10px;
   left: 605px;
-  background: url('../images/broken/b7.png?1390244138') no-repeat 0 0;
+  background: url('../images/broken/b7.png?1390244138') no-repeat 0 bottom;
 }
-/* line 223, /Users/wellcaffeinated/Documents/github/minutelabs/Hello Universe/library/styles/site.scss */
-#video > div:nth-child(14),
-#video > div:nth-child(15),
-#video > div:nth-child(16),
-#video > div:nth-child(17),
-#video > div:nth-child(18),
-#video > div:nth-child(19),
-#video > div:nth-child(20),
-#video > div:nth-child(21),
-#video > div:nth-child(22),
-#video > div:nth-child(23),
-#video > div:nth-child(24) {
+/* line 232, /Users/wellcaffeinated/Documents/github/minutelabs/Hello Universe/library/styles/site.scss */
+#video .bulk > div:nth-child(14),
+#video .bulk > div:nth-child(15),
+#video .bulk > div:nth-child(16),
+#video .bulk > div:nth-child(17),
+#video .bulk > div:nth-child(18),
+#video .bulk > div:nth-child(19),
+#video .bulk > div:nth-child(20),
+#video .bulk > div:nth-child(21),
+#video .bulk > div:nth-child(22),
+#video .bulk > div:nth-child(23),
+#video .bulk > div:nth-child(24) {
   top: 0px;
   left: 0px;
+  height: 30px;
+  width: 56px;
   background: url('../images/broken/t1.png?1390244209') no-repeat 0 0;
 }
-/* line 228, /Users/wellcaffeinated/Documents/github/minutelabs/Hello Universe/library/styles/site.scss */
-#video > div:nth-child(15) {
+/* line 239, /Users/wellcaffeinated/Documents/github/minutelabs/Hello Universe/library/styles/site.scss */
+#video .bulk > div:nth-child(15) {
   left: 56px;
 }
-/* line 231, /Users/wellcaffeinated/Documents/github/minutelabs/Hello Universe/library/styles/site.scss */
-#video > div:nth-child(16) {
+/* line 242, /Users/wellcaffeinated/Documents/github/minutelabs/Hello Universe/library/styles/site.scss */
+#video .bulk > div:nth-child(16) {
   left: 112px;
 }
-/* line 234, /Users/wellcaffeinated/Documents/github/minutelabs/Hello Universe/library/styles/site.scss */
-#video > div:nth-child(17) {
+/* line 245, /Users/wellcaffeinated/Documents/github/minutelabs/Hello Universe/library/styles/site.scss */
+#video .bulk > div:nth-child(17) {
   left: 168px;
 }
-/* line 237, /Users/wellcaffeinated/Documents/github/minutelabs/Hello Universe/library/styles/site.scss */
-#video > div:nth-child(18) {
+/* line 248, /Users/wellcaffeinated/Documents/github/minutelabs/Hello Universe/library/styles/site.scss */
+#video .bulk > div:nth-child(18) {
   left: 224px;
 }
-/* line 240, /Users/wellcaffeinated/Documents/github/minutelabs/Hello Universe/library/styles/site.scss */
-#video > div:nth-child(19) {
+/* line 251, /Users/wellcaffeinated/Documents/github/minutelabs/Hello Universe/library/styles/site.scss */
+#video .bulk > div:nth-child(19) {
   left: 280px;
 }
-/* line 243, /Users/wellcaffeinated/Documents/github/minutelabs/Hello Universe/library/styles/site.scss */
-#video > div:nth-child(20) {
+/* line 254, /Users/wellcaffeinated/Documents/github/minutelabs/Hello Universe/library/styles/site.scss */
+#video .bulk > div:nth-child(20) {
   left: 336px;
 }
-/* line 246, /Users/wellcaffeinated/Documents/github/minutelabs/Hello Universe/library/styles/site.scss */
-#video > div:nth-child(21) {
+/* line 257, /Users/wellcaffeinated/Documents/github/minutelabs/Hello Universe/library/styles/site.scss */
+#video .bulk > div:nth-child(21) {
   left: 392px;
 }
-/* line 249, /Users/wellcaffeinated/Documents/github/minutelabs/Hello Universe/library/styles/site.scss */
-#video > div:nth-child(22) {
+/* line 260, /Users/wellcaffeinated/Documents/github/minutelabs/Hello Universe/library/styles/site.scss */
+#video .bulk > div:nth-child(22) {
   left: 448px;
 }
-/* line 252, /Users/wellcaffeinated/Documents/github/minutelabs/Hello Universe/library/styles/site.scss */
-#video > div:nth-child(23) {
+/* line 263, /Users/wellcaffeinated/Documents/github/minutelabs/Hello Universe/library/styles/site.scss */
+#video .bulk > div:nth-child(23) {
   left: 504px;
 }
-/* line 255, /Users/wellcaffeinated/Documents/github/minutelabs/Hello Universe/library/styles/site.scss */
-#video > div:nth-child(24) {
-  left: 526px;
+/* line 266, /Users/wellcaffeinated/Documents/github/minutelabs/Hello Universe/library/styles/site.scss */
+#video .bulk > div:nth-child(24) {
+  left: 560px;
+  width: 22px;
 }
-/* line 258, /Users/wellcaffeinated/Documents/github/minutelabs/Hello Universe/library/styles/site.scss */
-#video > div:nth-child(25) {
+/* line 270, /Users/wellcaffeinated/Documents/github/minutelabs/Hello Universe/library/styles/site.scss */
+#video .bulk > div:nth-child(25) {
   top: 0px;
   left: 582px;
+  height: 30px;
+  width: 57px;
   background: url('../images/broken/t2.png?1390244229') no-repeat 0 0;
 }
-/* line 265, /Users/wellcaffeinated/Documents/github/minutelabs/Hello Universe/library/styles/site.scss */
-#video.broken > div:nth-child(1) {
+/* line 280, /Users/wellcaffeinated/Documents/github/minutelabs/Hello Universe/library/styles/site.scss */
+#video > .border div {
+  position: absolute;
+  top: 0;
+  border-left: 1px solid #333;
+  height: 25px;
+  z-index: 1;
+}
+/* line 288, /Users/wellcaffeinated/Documents/github/minutelabs/Hello Universe/library/styles/site.scss */
+#video > .border div:nth-child(1) {
+  left: 0;
+  top: 30px;
+}
+/* line 288, /Users/wellcaffeinated/Documents/github/minutelabs/Hello Universe/library/styles/site.scss */
+#video > .border div:nth-child(2) {
+  left: 0;
+  top: 55px;
+}
+/* line 288, /Users/wellcaffeinated/Documents/github/minutelabs/Hello Universe/library/styles/site.scss */
+#video > .border div:nth-child(3) {
+  left: 0;
+  top: 80px;
+}
+/* line 288, /Users/wellcaffeinated/Documents/github/minutelabs/Hello Universe/library/styles/site.scss */
+#video > .border div:nth-child(4) {
+  left: 0;
+  top: 105px;
+}
+/* line 288, /Users/wellcaffeinated/Documents/github/minutelabs/Hello Universe/library/styles/site.scss */
+#video > .border div:nth-child(5) {
+  left: 0;
+  top: 130px;
+}
+/* line 288, /Users/wellcaffeinated/Documents/github/minutelabs/Hello Universe/library/styles/site.scss */
+#video > .border div:nth-child(6) {
+  left: 0;
+  top: 155px;
+}
+/* line 288, /Users/wellcaffeinated/Documents/github/minutelabs/Hello Universe/library/styles/site.scss */
+#video > .border div:nth-child(7) {
+  left: 0;
+  top: 180px;
+}
+/* line 288, /Users/wellcaffeinated/Documents/github/minutelabs/Hello Universe/library/styles/site.scss */
+#video > .border div:nth-child(8) {
+  left: 0;
+  top: 205px;
+}
+/* line 288, /Users/wellcaffeinated/Documents/github/minutelabs/Hello Universe/library/styles/site.scss */
+#video > .border div:nth-child(9) {
+  left: 0;
+  top: 230px;
+}
+/* line 288, /Users/wellcaffeinated/Documents/github/minutelabs/Hello Universe/library/styles/site.scss */
+#video > .border div:nth-child(10) {
+  left: 0;
+  top: 255px;
+}
+/* line 288, /Users/wellcaffeinated/Documents/github/minutelabs/Hello Universe/library/styles/site.scss */
+#video > .border div:nth-child(11) {
+  left: 0;
+  top: 280px;
+}
+/* line 288, /Users/wellcaffeinated/Documents/github/minutelabs/Hello Universe/library/styles/site.scss */
+#video > .border div:nth-child(12) {
+  left: 0;
+  top: 305px;
+}
+/* line 294, /Users/wellcaffeinated/Documents/github/minutelabs/Hello Universe/library/styles/site.scss */
+#video > .border div:nth-child(13) {
+  right: 1px;
+  top: 30px;
+}
+/* line 294, /Users/wellcaffeinated/Documents/github/minutelabs/Hello Universe/library/styles/site.scss */
+#video > .border div:nth-child(14) {
+  right: 1px;
+  top: 55px;
+}
+/* line 294, /Users/wellcaffeinated/Documents/github/minutelabs/Hello Universe/library/styles/site.scss */
+#video > .border div:nth-child(15) {
+  right: 1px;
+  top: 80px;
+}
+/* line 294, /Users/wellcaffeinated/Documents/github/minutelabs/Hello Universe/library/styles/site.scss */
+#video > .border div:nth-child(16) {
+  right: 1px;
+  top: 105px;
+}
+/* line 294, /Users/wellcaffeinated/Documents/github/minutelabs/Hello Universe/library/styles/site.scss */
+#video > .border div:nth-child(17) {
+  right: 1px;
+  top: 130px;
+}
+/* line 294, /Users/wellcaffeinated/Documents/github/minutelabs/Hello Universe/library/styles/site.scss */
+#video > .border div:nth-child(18) {
+  right: 1px;
+  top: 155px;
+}
+/* line 294, /Users/wellcaffeinated/Documents/github/minutelabs/Hello Universe/library/styles/site.scss */
+#video > .border div:nth-child(19) {
+  right: 1px;
+  top: 180px;
+}
+/* line 294, /Users/wellcaffeinated/Documents/github/minutelabs/Hello Universe/library/styles/site.scss */
+#video > .border div:nth-child(20) {
+  right: 1px;
+  top: 205px;
+}
+/* line 294, /Users/wellcaffeinated/Documents/github/minutelabs/Hello Universe/library/styles/site.scss */
+#video > .border div:nth-child(21) {
+  right: 1px;
+  top: 230px;
+}
+/* line 294, /Users/wellcaffeinated/Documents/github/minutelabs/Hello Universe/library/styles/site.scss */
+#video > .border div:nth-child(22) {
+  right: 1px;
+  top: 255px;
+}
+/* line 294, /Users/wellcaffeinated/Documents/github/minutelabs/Hello Universe/library/styles/site.scss */
+#video > .border div:nth-child(23) {
+  right: 1px;
+  top: 280px;
+}
+/* line 294, /Users/wellcaffeinated/Documents/github/minutelabs/Hello Universe/library/styles/site.scss */
+#video > .border div:nth-child(24) {
+  right: 1px;
+  top: 305px;
+}
+/* line 303, /Users/wellcaffeinated/Documents/github/minutelabs/Hello Universe/library/styles/site.scss */
+#video.broken .bulk > div:nth-child(1) {
   -webkit-transform: translate(-100px, -300px) rotate(200deg);
   -moz-transform: translate(-100px, -300px) rotate(200deg);
   -ms-transform: translate(-100px, -300px) rotate(200deg);
   -o-transform: translate(-100px, -300px) rotate(200deg);
   transform: translate(-100px, -300px) rotate(200deg);
 }
-/* line 268, /Users/wellcaffeinated/Documents/github/minutelabs/Hello Universe/library/styles/site.scss */
-#video.broken > div:nth-child(2) {
+/* line 306, /Users/wellcaffeinated/Documents/github/minutelabs/Hello Universe/library/styles/site.scss */
+#video.broken .bulk > div:nth-child(2) {
   -webkit-transform: translate(-50px, -30px) rotate(-20deg);
   -moz-transform: translate(-50px, -30px) rotate(-20deg);
   -ms-transform: translate(-50px, -30px) rotate(-20deg);
   -o-transform: translate(-50px, -30px) rotate(-20deg);
   transform: translate(-50px, -30px) rotate(-20deg);
 }
-/* line 271, /Users/wellcaffeinated/Documents/github/minutelabs/Hello Universe/library/styles/site.scss */
-#video.broken > div:nth-child(3) {
+/* line 309, /Users/wellcaffeinated/Documents/github/minutelabs/Hello Universe/library/styles/site.scss */
+#video.broken .bulk > div:nth-child(3) {
   -webkit-transform: translate(60px, 20px) rotate(80deg);
   -moz-transform: translate(60px, 20px) rotate(80deg);
   -ms-transform: translate(60px, 20px) rotate(80deg);
   -o-transform: translate(60px, 20px) rotate(80deg);
   transform: translate(60px, 20px) rotate(80deg);
 }
-/* line 274, /Users/wellcaffeinated/Documents/github/minutelabs/Hello Universe/library/styles/site.scss */
-#video.broken > div:nth-child(4) {
+/* line 312, /Users/wellcaffeinated/Documents/github/minutelabs/Hello Universe/library/styles/site.scss */
+#video.broken .bulk > div:nth-child(4) {
   -webkit-transform: translate(-430px, -190px) rotate(-30deg);
   -moz-transform: translate(-430px, -190px) rotate(-30deg);
   -ms-transform: translate(-430px, -190px) rotate(-30deg);
   -o-transform: translate(-430px, -190px) rotate(-30deg);
   transform: translate(-430px, -190px) rotate(-30deg);
 }
-/* line 277, /Users/wellcaffeinated/Documents/github/minutelabs/Hello Universe/library/styles/site.scss */
-#video.broken > div:nth-child(5) {
+/* line 315, /Users/wellcaffeinated/Documents/github/minutelabs/Hello Universe/library/styles/site.scss */
+#video.broken .bulk > div:nth-child(5) {
   -webkit-transform: translate(300px, -120px) rotate(160deg);
   -moz-transform: translate(300px, -120px) rotate(160deg);
   -ms-transform: translate(300px, -120px) rotate(160deg);
   -o-transform: translate(300px, -120px) rotate(160deg);
   transform: translate(300px, -120px) rotate(160deg);
 }
-/* line 280, /Users/wellcaffeinated/Documents/github/minutelabs/Hello Universe/library/styles/site.scss */
-#video.broken > div:nth-child(6) {
+/* line 318, /Users/wellcaffeinated/Documents/github/minutelabs/Hello Universe/library/styles/site.scss */
+#video.broken .bulk > div:nth-child(6) {
   -webkit-transform: translate(400px, 20px) rotate(-70deg);
   -moz-transform: translate(400px, 20px) rotate(-70deg);
   -ms-transform: translate(400px, 20px) rotate(-70deg);
   -o-transform: translate(400px, 20px) rotate(-70deg);
   transform: translate(400px, 20px) rotate(-70deg);
 }
-/* line 283, /Users/wellcaffeinated/Documents/github/minutelabs/Hello Universe/library/styles/site.scss */
-#video.broken > div:nth-child(7) {
+/* line 321, /Users/wellcaffeinated/Documents/github/minutelabs/Hello Universe/library/styles/site.scss */
+#video.broken .bulk > div:nth-child(7) {
   -webkit-transform: translate(10px, -20px) rotate(-200deg);
   -moz-transform: translate(10px, -20px) rotate(-200deg);
   -ms-transform: translate(10px, -20px) rotate(-200deg);
   -o-transform: translate(10px, -20px) rotate(-200deg);
   transform: translate(10px, -20px) rotate(-200deg);
 }
-/* line 286, /Users/wellcaffeinated/Documents/github/minutelabs/Hello Universe/library/styles/site.scss */
-#video.broken > div:nth-child(8) {
+/* line 324, /Users/wellcaffeinated/Documents/github/minutelabs/Hello Universe/library/styles/site.scss */
+#video.broken .bulk > div:nth-child(8) {
   -webkit-transform: translate(-121px, 140px) rotate(400deg);
   -moz-transform: translate(-121px, 140px) rotate(400deg);
   -ms-transform: translate(-121px, 140px) rotate(400deg);
   -o-transform: translate(-121px, 140px) rotate(400deg);
   transform: translate(-121px, 140px) rotate(400deg);
 }
-/* line 289, /Users/wellcaffeinated/Documents/github/minutelabs/Hello Universe/library/styles/site.scss */
-#video.broken > div:nth-child(9) {
-  -webkit-transform: translate(-20px, -300px) rotate(-100deg);
-  -moz-transform: translate(-20px, -300px) rotate(-100deg);
-  -ms-transform: translate(-20px, -300px) rotate(-100deg);
-  -o-transform: translate(-20px, -300px) rotate(-100deg);
-  transform: translate(-20px, -300px) rotate(-100deg);
+/* line 327, /Users/wellcaffeinated/Documents/github/minutelabs/Hello Universe/library/styles/site.scss */
+#video.broken .bulk > div:nth-child(9) {
+  -webkit-transform: translate(-130px, -350px) rotate(-30deg);
+  -moz-transform: translate(-130px, -350px) rotate(-30deg);
+  -ms-transform: translate(-130px, -350px) rotate(-30deg);
+  -o-transform: translate(-130px, -350px) rotate(-30deg);
+  transform: translate(-130px, -350px) rotate(-30deg);
 }
-/* line 292, /Users/wellcaffeinated/Documents/github/minutelabs/Hello Universe/library/styles/site.scss */
-#video.broken > div:nth-child(10) {
-  -webkit-transform: translate(-30px, 50px) rotate(20deg);
-  -moz-transform: translate(-30px, 50px) rotate(20deg);
-  -ms-transform: translate(-30px, 50px) rotate(20deg);
-  -o-transform: translate(-30px, 50px) rotate(20deg);
-  transform: translate(-30px, 50px) rotate(20deg);
+/* line 330, /Users/wellcaffeinated/Documents/github/minutelabs/Hello Universe/library/styles/site.scss */
+#video.broken .bulk > div:nth-child(10) {
+  -webkit-transform: translate(-110px, 50px) rotate(20deg);
+  -moz-transform: translate(-110px, 50px) rotate(20deg);
+  -ms-transform: translate(-110px, 50px) rotate(20deg);
+  -o-transform: translate(-110px, 50px) rotate(20deg);
+  transform: translate(-110px, 50px) rotate(20deg);
 }
-/* line 295, /Users/wellcaffeinated/Documents/github/minutelabs/Hello Universe/library/styles/site.scss */
-#video.broken > div:nth-child(11) {
+/* line 333, /Users/wellcaffeinated/Documents/github/minutelabs/Hello Universe/library/styles/site.scss */
+#video.broken .bulk > div:nth-child(11) {
   -webkit-transform: translate(-40px, 20px) rotate(-450deg);
   -moz-transform: translate(-40px, 20px) rotate(-450deg);
   -ms-transform: translate(-40px, 20px) rotate(-450deg);
   -o-transform: translate(-40px, 20px) rotate(-450deg);
   transform: translate(-40px, 20px) rotate(-450deg);
 }
-/* line 298, /Users/wellcaffeinated/Documents/github/minutelabs/Hello Universe/library/styles/site.scss */
-#video.broken > div:nth-child(12) {
+/* line 336, /Users/wellcaffeinated/Documents/github/minutelabs/Hello Universe/library/styles/site.scss */
+#video.broken .bulk > div:nth-child(12) {
   -webkit-transform: translate(80px, -20px) rotate(20deg);
   -moz-transform: translate(80px, -20px) rotate(20deg);
   -ms-transform: translate(80px, -20px) rotate(20deg);
   -o-transform: translate(80px, -20px) rotate(20deg);
   transform: translate(80px, -20px) rotate(20deg);
 }
-/* line 301, /Users/wellcaffeinated/Documents/github/minutelabs/Hello Universe/library/styles/site.scss */
-#video.broken > div:nth-child(13) {
+/* line 339, /Users/wellcaffeinated/Documents/github/minutelabs/Hello Universe/library/styles/site.scss */
+#video.broken .bulk > div:nth-child(13) {
   -webkit-transform: translate(-10px, -100px) rotate(200deg);
   -moz-transform: translate(-10px, -100px) rotate(200deg);
   -ms-transform: translate(-10px, -100px) rotate(200deg);
   -o-transform: translate(-10px, -100px) rotate(200deg);
   transform: translate(-10px, -100px) rotate(200deg);
 }
-/* line 304, /Users/wellcaffeinated/Documents/github/minutelabs/Hello Universe/library/styles/site.scss */
-#video.broken > div:nth-child(14) {
+/* line 342, /Users/wellcaffeinated/Documents/github/minutelabs/Hello Universe/library/styles/site.scss */
+#video.broken .bulk > div:nth-child(14) {
   -webkit-transform: translate(70px, 220px) rotate(-300deg);
   -moz-transform: translate(70px, 220px) rotate(-300deg);
   -ms-transform: translate(70px, 220px) rotate(-300deg);
   -o-transform: translate(70px, 220px) rotate(-300deg);
   transform: translate(70px, 220px) rotate(-300deg);
 }
-/* line 307, /Users/wellcaffeinated/Documents/github/minutelabs/Hello Universe/library/styles/site.scss */
-#video.broken > div:nth-child(15) {
+/* line 345, /Users/wellcaffeinated/Documents/github/minutelabs/Hello Universe/library/styles/site.scss */
+#video.broken .bulk > div:nth-child(15) {
   -webkit-transform: translate(90px, 20px) rotate(436deg);
   -moz-transform: translate(90px, 20px) rotate(436deg);
   -ms-transform: translate(90px, 20px) rotate(436deg);
   -o-transform: translate(90px, 20px) rotate(436deg);
   transform: translate(90px, 20px) rotate(436deg);
 }
-/* line 310, /Users/wellcaffeinated/Documents/github/minutelabs/Hello Universe/library/styles/site.scss */
-#video.broken > div:nth-child(16) {
+/* line 348, /Users/wellcaffeinated/Documents/github/minutelabs/Hello Universe/library/styles/site.scss */
+#video.broken .bulk > div:nth-child(16) {
   -webkit-transform: translate(-324px, 357px) rotate(23deg);
   -moz-transform: translate(-324px, 357px) rotate(23deg);
   -ms-transform: translate(-324px, 357px) rotate(23deg);
   -o-transform: translate(-324px, 357px) rotate(23deg);
   transform: translate(-324px, 357px) rotate(23deg);
 }
-/* line 313, /Users/wellcaffeinated/Documents/github/minutelabs/Hello Universe/library/styles/site.scss */
-#video.broken > div:nth-child(17) {
-  -webkit-transform: translate(-397px, -70px) rotate(-187deg);
-  -moz-transform: translate(-397px, -70px) rotate(-187deg);
-  -ms-transform: translate(-397px, -70px) rotate(-187deg);
-  -o-transform: translate(-397px, -70px) rotate(-187deg);
-  transform: translate(-397px, -70px) rotate(-187deg);
+/* line 351, /Users/wellcaffeinated/Documents/github/minutelabs/Hello Universe/library/styles/site.scss */
+#video.broken .bulk > div:nth-child(17) {
+  -webkit-transform: translate(-397px, -10px) rotate(-187deg);
+  -moz-transform: translate(-397px, -10px) rotate(-187deg);
+  -ms-transform: translate(-397px, -10px) rotate(-187deg);
+  -o-transform: translate(-397px, -10px) rotate(-187deg);
+  transform: translate(-397px, -10px) rotate(-187deg);
 }
-/* line 316, /Users/wellcaffeinated/Documents/github/minutelabs/Hello Universe/library/styles/site.scss */
-#video.broken > div:nth-child(18) {
+/* line 354, /Users/wellcaffeinated/Documents/github/minutelabs/Hello Universe/library/styles/site.scss */
+#video.broken .bulk > div:nth-child(18) {
   -webkit-transform: translate(245px, 27px) rotate(734deg);
   -moz-transform: translate(245px, 27px) rotate(734deg);
   -ms-transform: translate(245px, 27px) rotate(734deg);
   -o-transform: translate(245px, 27px) rotate(734deg);
   transform: translate(245px, 27px) rotate(734deg);
 }
-/* line 319, /Users/wellcaffeinated/Documents/github/minutelabs/Hello Universe/library/styles/site.scss */
-#video.broken > div:nth-child(19) {
-  -webkit-transform: translate(374px, -238px) rotate(-457deg);
-  -moz-transform: translate(374px, -238px) rotate(-457deg);
-  -ms-transform: translate(374px, -238px) rotate(-457deg);
-  -o-transform: translate(374px, -238px) rotate(-457deg);
-  transform: translate(374px, -238px) rotate(-457deg);
+/* line 357, /Users/wellcaffeinated/Documents/github/minutelabs/Hello Universe/library/styles/site.scss */
+#video.broken .bulk > div:nth-child(19) {
+  -webkit-transform: translate(494px, 238px) rotate(-457deg);
+  -moz-transform: translate(494px, 238px) rotate(-457deg);
+  -ms-transform: translate(494px, 238px) rotate(-457deg);
+  -o-transform: translate(494px, 238px) rotate(-457deg);
+  transform: translate(494px, 238px) rotate(-457deg);
 }
-/* line 322, /Users/wellcaffeinated/Documents/github/minutelabs/Hello Universe/library/styles/site.scss */
-#video.broken > div:nth-child(20) {
+/* line 360, /Users/wellcaffeinated/Documents/github/minutelabs/Hello Universe/library/styles/site.scss */
+#video.broken .bulk > div:nth-child(20) {
   -webkit-transform: translate(404px, 508px) rotate(-7deg);
   -moz-transform: translate(404px, 508px) rotate(-7deg);
   -ms-transform: translate(404px, 508px) rotate(-7deg);
   -o-transform: translate(404px, 508px) rotate(-7deg);
   transform: translate(404px, 508px) rotate(-7deg);
 }
-/* line 325, /Users/wellcaffeinated/Documents/github/minutelabs/Hello Universe/library/styles/site.scss */
-#video.broken > div:nth-child(21) {
-  -webkit-transform: translate(42px, 93px) rotate(9deg);
-  -moz-transform: translate(42px, 93px) rotate(9deg);
-  -ms-transform: translate(42px, 93px) rotate(9deg);
-  -o-transform: translate(42px, 93px) rotate(9deg);
-  transform: translate(42px, 93px) rotate(9deg);
+/* line 363, /Users/wellcaffeinated/Documents/github/minutelabs/Hello Universe/library/styles/site.scss */
+#video.broken .bulk > div:nth-child(21) {
+  -webkit-transform: translate(417px, 380px) rotate(38deg);
+  -moz-transform: translate(417px, 380px) rotate(38deg);
+  -ms-transform: translate(417px, 380px) rotate(38deg);
+  -o-transform: translate(417px, 380px) rotate(38deg);
+  transform: translate(417px, 380px) rotate(38deg);
 }
-/* line 328, /Users/wellcaffeinated/Documents/github/minutelabs/Hello Universe/library/styles/site.scss */
-#video.broken > div:nth-child(21) {
+/* line 366, /Users/wellcaffeinated/Documents/github/minutelabs/Hello Universe/library/styles/site.scss */
+#video.broken .bulk > div:nth-child(21) {
   -webkit-transform: translate(557px, 300px) rotate(38deg);
   -moz-transform: translate(557px, 300px) rotate(38deg);
   -ms-transform: translate(557px, 300px) rotate(38deg);
   -o-transform: translate(557px, 300px) rotate(38deg);
   transform: translate(557px, 300px) rotate(38deg);
 }
-/* line 331, /Users/wellcaffeinated/Documents/github/minutelabs/Hello Universe/library/styles/site.scss */
-#video.broken > div:nth-child(22) {
+/* line 369, /Users/wellcaffeinated/Documents/github/minutelabs/Hello Universe/library/styles/site.scss */
+#video.broken .bulk > div:nth-child(22) {
   -webkit-transform: translate(407px, 294px) rotate(92deg);
   -moz-transform: translate(407px, 294px) rotate(92deg);
   -ms-transform: translate(407px, 294px) rotate(92deg);
   -o-transform: translate(407px, 294px) rotate(92deg);
   transform: translate(407px, 294px) rotate(92deg);
 }
-/* line 334, /Users/wellcaffeinated/Documents/github/minutelabs/Hello Universe/library/styles/site.scss */
-#video.broken > div:nth-child(23) {
+/* line 372, /Users/wellcaffeinated/Documents/github/minutelabs/Hello Universe/library/styles/site.scss */
+#video.broken .bulk > div:nth-child(23) {
   -webkit-transform: translate(23px, -32px) rotate(-32deg);
   -moz-transform: translate(23px, -32px) rotate(-32deg);
   -ms-transform: translate(23px, -32px) rotate(-32deg);
   -o-transform: translate(23px, -32px) rotate(-32deg);
   transform: translate(23px, -32px) rotate(-32deg);
 }
-/* line 337, /Users/wellcaffeinated/Documents/github/minutelabs/Hello Universe/library/styles/site.scss */
-#video.broken > div:nth-child(24) {
+/* line 375, /Users/wellcaffeinated/Documents/github/minutelabs/Hello Universe/library/styles/site.scss */
+#video.broken .bulk > div:nth-child(24) {
   -webkit-transform: translate(-603px, 206px) rotate(20deg);
   -moz-transform: translate(-603px, 206px) rotate(20deg);
   -ms-transform: translate(-603px, 206px) rotate(20deg);
   -o-transform: translate(-603px, 206px) rotate(20deg);
   transform: translate(-603px, 206px) rotate(20deg);
 }
-/* line 340, /Users/wellcaffeinated/Documents/github/minutelabs/Hello Universe/library/styles/site.scss */
-#video.broken > div:nth-child(25) {
+/* line 378, /Users/wellcaffeinated/Documents/github/minutelabs/Hello Universe/library/styles/site.scss */
+#video.broken .bulk > div:nth-child(25) {
   -webkit-transform: translate(52px, 20px) rotate(-20deg);
   -moz-transform: translate(52px, 20px) rotate(-20deg);
   -ms-transform: translate(52px, 20px) rotate(-20deg);
   -o-transform: translate(52px, 20px) rotate(-20deg);
   transform: translate(52px, 20px) rotate(-20deg);
 }
+/* line 384, /Users/wellcaffeinated/Documents/github/minutelabs/Hello Universe/library/styles/site.scss */
+#video #horse {
+  position: absolute;
+  top: 125px;
+  left: 2px;
+  height: 75px;
+  overflow: hidden;
+  width: 635px;
+}
+/* line 392, /Users/wellcaffeinated/Documents/github/minutelabs/Hello Universe/library/styles/site.scss */
+#video #horse > .wrap {
+  position: relative;
+  right: 80px;
+  width: 1400px;
+}
+/* line 398, /Users/wellcaffeinated/Documents/github/minutelabs/Hello Universe/library/styles/site.scss */
+#video #horse img {
+  display: block;
+  clear: none;
+  float: left;
+  width: 100px;
+  -webkit-transition: -webkit-transform 0.5s linear;
+  -moz-transition: -moz-transform 0.5s linear;
+  -o-transition: -o-transform 0.5s linear;
+  transition: transform 0.5s linear;
+  -webkit-transform: rotateX(90deg);
+  -moz-transform: rotateX(90deg);
+  -ms-transform: rotateX(90deg);
+  -o-transform: rotateX(90deg);
+  transform: rotateX(90deg);
+  -webkit-transform-origin: 50% 0;
+  -moz-transform-origin: 50% 0;
+  -ms-transform-origin: 50% 0;
+  -o-transform-origin: 50% 0;
+  transform-origin: 50% 0;
+}
+/* line 407, /Users/wellcaffeinated/Documents/github/minutelabs/Hello Universe/library/styles/site.scss */
+#video #horse img.on {
+  -webkit-transform: rotateX(0deg);
+  -moz-transform: rotateX(0deg);
+  -ms-transform: rotateX(0deg);
+  -o-transform: rotateX(0deg);
+  transform: rotateX(0deg);
+}
 
-/* line 346, /Users/wellcaffeinated/Documents/github/minutelabs/Hello Universe/library/styles/site.scss */
+/* line 414, /Users/wellcaffeinated/Documents/github/minutelabs/Hello Universe/library/styles/site.scss */
 #light-switch-viewport {
   position: absolute;
   top: 260px;
   right: 0px;
   z-index: 10;
 }
-/* line 352, /Users/wellcaffeinated/Documents/github/minutelabs/Hello Universe/library/styles/site.scss */
+/* line 420, /Users/wellcaffeinated/Documents/github/minutelabs/Hello Universe/library/styles/site.scss */
 #light-switch-viewport .pjs-circle {
   background: gray;
   -webkit-border-radius: 50%;
@@ -726,7 +911,7 @@ body:not(.dark) #lightbulb:after {
   border-radius: 50%;
 }
 
-/* line 358, /Users/wellcaffeinated/Documents/github/minutelabs/Hello Universe/library/styles/site.scss */
+/* line 426, /Users/wellcaffeinated/Documents/github/minutelabs/Hello Universe/library/styles/site.scss */
 #screen {
   position: absolute;
   width: 100%;
@@ -736,7 +921,7 @@ body:not(.dark) #lightbulb:after {
   line-height: 1.3;
 }
 
-/* line 367, /Users/wellcaffeinated/Documents/github/minutelabs/Hello Universe/library/styles/site.scss */
+/* line 435, /Users/wellcaffeinated/Documents/github/minutelabs/Hello Universe/library/styles/site.scss */
 #msg {
   text-align: center;
   display: block;
@@ -744,7 +929,7 @@ body:not(.dark) #lightbulb:after {
   font-size: 2.4em;
 }
 
-/* line 374, /Users/wellcaffeinated/Documents/github/minutelabs/Hello Universe/library/styles/site.scss */
+/* line 442, /Users/wellcaffeinated/Documents/github/minutelabs/Hello Universe/library/styles/site.scss */
 #sandbox {
   position: absolute;
   top: 0;
@@ -762,50 +947,50 @@ body:not(.dark) #lightbulb:after {
   border-radius: 0;
   background: #1a1a1a;
 }
-/* line 386, /Users/wellcaffeinated/Documents/github/minutelabs/Hello Universe/library/styles/site.scss */
+/* line 454, /Users/wellcaffeinated/Documents/github/minutelabs/Hello Universe/library/styles/site.scss */
 #sandbox, #sandbox > * {
   font-family: "latin-modern-mono-light", Courier, monospace;
 }
-/* line 390, /Users/wellcaffeinated/Documents/github/minutelabs/Hello Universe/library/styles/site.scss */
+/* line 458, /Users/wellcaffeinated/Documents/github/minutelabs/Hello Universe/library/styles/site.scss */
 #sandbox textarea {
   height: auto;
   max-width: none;
   background: #1a1a1a;
 }
-/* line 396, /Users/wellcaffeinated/Documents/github/minutelabs/Hello Universe/library/styles/site.scss */
+/* line 464, /Users/wellcaffeinated/Documents/github/minutelabs/Hello Universe/library/styles/site.scss */
 #sandbox pre.output {
   height: 150px;
 }
-/* line 399, /Users/wellcaffeinated/Documents/github/minutelabs/Hello Universe/library/styles/site.scss */
+/* line 467, /Users/wellcaffeinated/Documents/github/minutelabs/Hello Universe/library/styles/site.scss */
 #sandbox pre.output span {
   color: #ededed;
 }
-/* line 400, /Users/wellcaffeinated/Documents/github/minutelabs/Hello Universe/library/styles/site.scss */
+/* line 468, /Users/wellcaffeinated/Documents/github/minutelabs/Hello Universe/library/styles/site.scss */
 #sandbox pre.output span.command {
   color: gainsboro;
 }
-/* line 401, /Users/wellcaffeinated/Documents/github/minutelabs/Hello Universe/library/styles/site.scss */
+/* line 469, /Users/wellcaffeinated/Documents/github/minutelabs/Hello Universe/library/styles/site.scss */
 #sandbox pre.output span.prefix {
   color: #626262;
 }
-/* line 402, /Users/wellcaffeinated/Documents/github/minutelabs/Hello Universe/library/styles/site.scss */
+/* line 470, /Users/wellcaffeinated/Documents/github/minutelabs/Hello Universe/library/styles/site.scss */
 #sandbox pre.output span.undefined {
   color: #626262;
 }
-/* line 403, /Users/wellcaffeinated/Documents/github/minutelabs/Hello Universe/library/styles/site.scss */
+/* line 471, /Users/wellcaffeinated/Documents/github/minutelabs/Hello Universe/library/styles/site.scss */
 #sandbox pre.output span.string {
   color: #e4d42c;
 }
-/* line 404, /Users/wellcaffeinated/Documents/github/minutelabs/Hello Universe/library/styles/site.scss */
+/* line 472, /Users/wellcaffeinated/Documents/github/minutelabs/Hello Universe/library/styles/site.scss */
 #sandbox pre.output span.number {
   color: #79e500;
 }
-/* line 405, /Users/wellcaffeinated/Documents/github/minutelabs/Hello Universe/library/styles/site.scss */
+/* line 473, /Users/wellcaffeinated/Documents/github/minutelabs/Hello Universe/library/styles/site.scss */
 #sandbox pre.output span.error {
   color: #e93f33;
 }
 
-/* line 410, /Users/wellcaffeinated/Documents/github/minutelabs/Hello Universe/library/styles/site.scss */
+/* line 478, /Users/wellcaffeinated/Documents/github/minutelabs/Hello Universe/library/styles/site.scss */
 body,
 #msg {
   -webkit-transition: all 0.2s linear;
@@ -814,13 +999,13 @@ body,
   transition: all 0.2s linear;
 }
 
-/* line 413, /Users/wellcaffeinated/Documents/github/minutelabs/Hello Universe/library/styles/site.scss */
+/* line 481, /Users/wellcaffeinated/Documents/github/minutelabs/Hello Universe/library/styles/site.scss */
 body.dark {
   background: #1a1a1a;
   color: #ededed;
   font-family: "latin-modern-mono-light", Courier, monospace;
 }
-/* line 419, /Users/wellcaffeinated/Documents/github/minutelabs/Hello Universe/library/styles/site.scss */
+/* line 487, /Users/wellcaffeinated/Documents/github/minutelabs/Hello Universe/library/styles/site.scss */
 body.dark #lightbulb,
 body.dark #video {
   display: none;
